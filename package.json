@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Recipe application",
   "default": "index.html",
+  "targets": {
+    "main": false
+  },
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
@@ -16,7 +19,7 @@
   },
   "dependencies": {
     "core-js": "^3.31.0",
-    "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
     "regenerator": "^0.14.10",
     "runtime": "^0.14.1"
   }
